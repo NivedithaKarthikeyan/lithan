@@ -20,7 +20,7 @@ $mail->Username = 'lithanm6@gmail.com';
 $mail->Password = 'H245hyt12';
 $con=mysqli_connect("localhost","root","test123","m5project");
 
-$sql ="select email,firstname  user where subscription = 1";
+$sql ="select email,firstname from user where subscription = 1";
 $result = $con->query($sql);
 
 foreach($result as $row){
