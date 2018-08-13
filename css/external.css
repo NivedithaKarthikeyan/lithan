@@ -1,0 +1,368 @@
+body,html{
+
+font-family: Montserrat;
+}
+
+strong{
+	color:#ff7700;
+}
+
+h2{
+	font-weight:bold;
+}
+
+#footer {
+	background-color:#151515;
+	height: 70px;
+
+}
+
+h5 {
+	text-align: center;
+	color: #FFF;
+}
+
+.button {
+    background-color: #FFF;
+    border: none;
+    color: white;
+    width: 200px;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button5 {
+    background-color: #FFF;
+    color: black;
+    border: 1px solid #333333;
+}
+
+.button5:hover {
+    background-color: #A1A1A1;
+    color: black;
+}
+
+input[type=text], 
+input[type=email],
+input[type=password],
+
+select {
+    height: 40px;
+    border-radius: 0px;
+    font-size: 12px;
+    background-color: #FFF;
+	color: black;
+}
+
+.hero{
+  width: auto;
+  max-width: 1200px;
+  height: 500px;
+  text-align: center;
+  margin: 0 auto;
+  position: relative; 
+}
+
+.hero h1{
+  margin: auto;
+  position: absolute; 
+  top: 120px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+.hero p{
+  color: #FFF;
+  font-size: 1.5em;
+  margin: auto;
+  position: absolute; 
+  top: 160px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+   z-index: 1;
+}
+.hero img{
+  width: 100%;
+}
+
+.hero h1, .hero p{
+  -webkit-animation: scale-in 1.3s ease-out;
+  -moz-animation: scale-in 1.3s  ease-out;
+    animation: scale-in 1.3s ease-out; 
+}
+
+@media all and (max-width: 768px) {
+  .hero{
+    height: 50vw;
+  }
+  .bar{
+    height: 26vw;
+    top: 10vw;
+  }
+  .hero h1{
+    font-size: 5vw;
+    top: 13vw;
+  }
+  .hero p{
+    font-size: 3vw;
+    top: 27vw;
+  }
+ 
+}
+
+Skip to content
+Features
+Business
+Explore
+Marketplace
+Pricing
+This repository
+Search
+Sign in or Sign up
+ Watch 1  Star 4  Fork 6 cmsbots/bsflat.it
+ Code  Issues 0  Pull requests 0  Projects 0  Insights
+Branch: master Find file Copy pathbsflat.it/flatit.css
+89ef215  on Jun 4, 2015
+@cmsbots cmsbots Create flatit.css
+1 contributor
+RawBlameHistory     
+206 lines (202 sloc)  9.13 KB
+.img-rounded, 
+.img-thumbnail, 
+code,
+kbd,
+pre,
+pre code,
+.form-control,
+.input-sm,
+.form-group-sm .form-control,
+.input-lg,
+.form-group-lg .form-control,
+.btn,
+.btn-link,
+.btn-lg,
+.btn-group-lg > .btn,
+.btn-sm,
+.btn-group-sm > .btn,
+.btn-xs,
+.btn-group-xs > .btn,
+.dropdown-menu,
+.btn-group > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle),
+.btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle),
+.btn-group > .btn:last-child:not(:first-child),
+.btn-group > .dropdown-toggle:not(:first-child),
+.btn-group > .btn-group:not(:first-child):not(:last-child) > .btn,
+.btn-group > .btn-group:first-child:not(:last-child) > .btn:last-child,
+.btn-group > .btn-group:first-child:not(:last-child) > .dropdown-toggle,
+.btn-group > .btn-group:last-child:not(:first-child) > .btn:first-child,
+.btn-group-vertical > .btn:not(:first-child):not(:last-child),
+.btn-group-vertical > .btn:first-child:not(:last-child),
+.btn-group-vertical > .btn:last-child:not(:first-child),
+.btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .btn,
+.btn-group-vertical > .btn-group:first-child:not(:last-child) > .btn:last-child,
+.btn-group-vertical > .btn-group:first-child:not(:last-child) > .dropdown-toggle,
+.btn-group-vertical > .btn-group:last-child:not(:first-child) > .btn:first-child,
+.input-group-lg > .form-control,
+.input-group-lg > .input-group-addon,
+.input-group-lg > .input-group-btn > .btn,
+.input-group-sm > .form-control,
+.input-group-sm > .input-group-addon,
+.input-group-sm > .input-group-btn > .btn,
+textarea.input-group-sm > .form-control,
+textarea.input-group-sm > .input-group-addon,
+textarea.input-group-sm > .input-group-btn > .btn,
+select[multiple].input-group-sm > .form-control,
+select[multiple].input-group-sm > .input-group-addon,
+select[multiple].input-group-sm > .input-group-btn > .btn,
+.input-group-addon,
+.input-group-btn,
+.input-group .form-control,
+.input-group-addon:not(:first-child):not(:last-child),
+.input-group-btn:not(:first-child):not(:last-child),
+.input-group .form-control:not(:first-child):not(:last-child),
+.input-group-addon,
+.input-group-addon,
+.input-group-addon.input-sm,
+.input-group-addon.input-lg,
+.input-group .form-control:first-child,
+.input-group-addon:first-child,
+.input-group-btn:first-child > .btn,
+.input-group-btn:first-child > .btn-group > .btn,
+.input-group-btn:first-child > .dropdown-toggle,
+.input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle),
+.input-group-btn:last-child > .btn-group:not(:last-child) > .btn,
+.input-group .form-control:last-child,
+.input-group-addon:last-child,
+.input-group-btn:last-child > .btn,
+.input-group-btn:last-child > .btn-group > .btn,
+.input-group-btn:last-child > .dropdown-toggle,
+.input-group-btn:first-child > .btn:not(:first-child),
+.input-group-btn:first-child > .btn-group:not(:first-child) > .btn,
+.nav-tabs > li > a,
+.nav-tabs.nav-justified > li > a,
+.nav-tabs.nav-justified > .active > a,
+.nav-tabs.nav-justified > .active > a:hover,
+.nav-tabs.nav-justified > .active > a:focus,
+.nav-pills > li > a,
+.nav-tabs-justified > li > a,
+.nav-tabs .dropdown-menu,
+.navbar-toggle,
+.navbar-nav > li > .dropdown-menu
+.navbar-fixed-bottom .navbar-nav > li > .dropdown-menu,
+.breadcrumb ,
+.pagination ,
+.pagination > li:first-child > a,
+.pagination > li:first-child > span ,
+.pagination > li:last-child > a,
+.pagination > li:last-child > span,
+.pagination-lg > li:first-child > a,
+.pagination-lg > li:first-child > span,
+.pagination-lg > li:last-child > a,
+.pagination-lg > li:last-child > span,
+.pagination-sm > li:first-child > a,
+.pagination-sm > li:first-child > span,
+.pagination-sm > li:last-child > a,
+.pagination-sm > li:last-child > span,
+.pager li > a,
+.pager li > span,
+.badge,
+.container .jumbotron,
+.container-fluid .jumbotron,
+.thumbnail,
+.alert,
+.progress,
+.list-group-item:first-child,
+.list-group-item:last-child,
+.panel,
+.panel-heading,
+.panel-footer,
+.panel > .list-group .list-group-item,
+.panel > .panel-collapse > .list-group .list-group-item ,
+.panel > .list-group:first-child .list-group-item:first-child,
+.panel > .panel-collapse > .list-group:first-child .list-group-item:first-child ,
+.panel > .list-group:last-child .list-group-item:last-child,
+.panel > .panel-collapse > .list-group:last-child .list-group-item:last-child ,
+.panel > .table:first-child,
+.panel > .table-responsive:first-child > .table:first-child ,
+.panel > .table:first-child > thead:first-child > tr:first-child,
+.panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child,
+.panel > .table:first-child > tbody:first-child > tr:first-child,
+.panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child ,
+.panel > .table:first-child > thead:first-child > tr:first-child td:first-child,
+.panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child td:first-child,
+.panel > .table:first-child > tbody:first-child > tr:first-child td:first-child,
+.panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child td:first-child,
+.panel > .table:first-child > thead:first-child > tr:first-child th:first-child,
+.panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child th:first-child,
+.panel > .table:first-child > tbody:first-child > tr:first-child th:first-child,
+.panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:first-child,
+.panel > .table:first-child > thead:first-child > tr:first-child td:last-child,
+.panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child td:last-child,
+.panel > .table:first-child > tbody:first-child > tr:first-child td:last-child,
+.panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child td:last-child,
+.panel > .table:first-child > thead:first-child > tr:first-child th:last-child,
+.panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child th:last-child,
+.panel > .table:first-child > tbody:first-child > tr:first-child th:last-child,
+.panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:last-child ,
+.panel > .table:last-child,
+.panel > .table-responsive:last-child > .table:last-child,
+.panel > .table:last-child > tbody:last-child > tr:last-child,
+.panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child,
+.panel > .table:last-child > tfoot:last-child > tr:last-child,
+.panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child ,
+.panel > .table:last-child > tbody:last-child > tr:last-child td:first-child,
+.panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child td:first-child,
+.panel > .table:last-child > tfoot:last-child > tr:last-child td:first-child,
+.panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child td:first-child,
+.panel > .table:last-child > tbody:last-child > tr:last-child th:first-child,
+.panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child th:first-child,
+.panel > .table:last-child > tfoot:last-child > tr:last-child th:first-child,
+.panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:first-child,
+.panel > .table:last-child > tbody:last-child > tr:last-child td:last-child,
+.panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child td:last-child,
+.panel > .table:last-child > tfoot:last-child > tr:last-child td:last-child,
+.panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child td:last-child,
+.panel > .table:last-child > tbody:last-child > tr:last-child th:last-child,
+.panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child th:last-child,
+.panel > .table:last-child > tfoot:last-child > tr:last-child th:last-child,
+.panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:last-child,
+.panel-group .panel ,
+.well ,
+.well-lg,
+.well-sm ,
+.modal-content,
+.tooltip-inner ,
+.popover-title,
+.label,
+.resizable-textarea textarea {
+  -webkit-border-top-left-radius: 0px;
+  -webkit-border-top-right-radius: 0px;
+  -webkit-border-bottom-right-radius: 0px;
+  -webkit-border-bottom-left-radius: 0px;
+  -moz-border-radius-topleft: 0px;
+  -moz-border-radius-topright: 0px;
+  -moz-border-radius-bottomright: 0px;
+  -moz-border-radius-bottomleft: 0px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+@media (min-width: 768px) {
+.nav-tabs.nav-justified > li > a,
+.nav-tabs-justified > li > a,
+.navbar,
+.navbar-static-top,
+.navbar-fixed-top,
+.navbar-fixed-bottom  {
+  -webkit-border-top-left-radius: 0px;
+  -webkit-border-top-right-radius: 0px;
+  -webkit-border-bottom-right-radius: 0px;
+  -webkit-border-bottom-left-radius: 0px;
+  -moz-border-radius-topleft: 0px;
+  -moz-border-radius-topright: 0px;
+  -moz-border-radius-bottomright: 0px;
+  -moz-border-radius-bottomleft: 0px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+    
+}
+}
+
+© 2018 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+API
+Training
+Shop
+Blog
+About
+
+
+
+
+
+
+
+
+
+
+
+
+
